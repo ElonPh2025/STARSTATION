@@ -2,7 +2,11 @@
 
 Interactive **orbital Starship station assembler** — radial LEO station with hub Starship, outer ships, tubes, connectors, and a 16-petal solar assembly.
 
-**Play:** [https://elonph2025.github.io/STARSTATION/](https://elonph2025.github.io/STARSTATION/)
+## Play now
+
+**https://starstation.netlify.app/**
+
+(Also: [GitHub repo](https://github.com/ElonPh2025/STARSTATION) · GitHub Pages when enabled.)
 
 ## Controls
 
@@ -18,10 +22,10 @@ Interactive **orbital Starship station assembler** — radial LEO station with h
 ```bash
 cd STARSTATION
 python3 -m http.server 8765
-# http://127.0.0.1:8765/
+# open http://127.0.0.1:8765/
 ```
 
-Meshes and textures ship as embedded data-URLs (`assets-embedded-*.js`) so the app works as a static GitHub Pages site. Draco decoder loads from Google’s public host.
+Meshes and textures ship as embedded data-URLs (`asset_*.js`) so the app works as a static site. Draco decoder loads from Google’s public host.
 
 ## Stack
 
